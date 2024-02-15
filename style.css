@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://i.pinimg.com/736x/05/c1/5a/05c15aca14964af944aac1c638e1d7d2.jpg");
+    background-size: auto;
+    filter: blur(3px);
+}
+
+#title, #description {
+    text-align: center;
+}
+
+#container {
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+form{
+    background: rgba(127,0,0,0.8);
+    border-radius: 10px;
+    padding: 20px;
+    height: 950px;
+}
+
+input[type="radio"] {
+    border: 1px solid;
+    border-radius: 8px;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+ 
+.RorC {
+    font-size: 30px;
+}
+
+#name-label {
+    padding: 5px
+}
+
+#email-label {
+    margin-top: 10px;
+}
+
+#number-label {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+    display: flex;
+    width: 100%; /* Full width to fit container */
+    padding: 8px; /* Adds some padding inside the input fields for text to breathe */
+    margin-top: 5px; /* Adds a little space between the label and the input field */
+    border: 1px solid #ccc; /* A subtle border */
+    border-radius: 4px; /* Rounded corners for a modern look */
+    box-sizing: border-box; /* Ensures padding does not add to the total width */
+    align-content: flex-start;
+}
+
+input[type="submit"] {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 12px 24px;
+    width: 100%;
+    background-color: #04AA6D;
+}
+
+textarea {
+    min-height: 120px;
+    width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}

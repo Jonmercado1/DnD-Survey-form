@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey for DND!</title>
+    <link rel="stylesheet" href="style.css"></head>
+<body>
+    <div id="container">
+        <h1 id="title">Dnd Survey</h1>
+        <p id="description">Give some info about you!</p>
+        
+        <form id="survey-form">
+            <!--Name-->
+            <div class="form-group">
+                <label id="name-label" for="name">Name: </label>
+                <input type="text" id="name" name="name" required placeholder="Enter name here"/>
+            </div>
+            <!--Email-->
+            <div class="form-group">
+
+                <label for="email" id="email-label">Enter your Email: </label>
+                <input type="email" id="email" name="email" required placeholder="Enter email"/>
+            </div>
+            <!--Age-->
+            <div class="form-group">
+                <label for="number" id="number-label">Enter your age: </label>
+                <input type="number" id="number" required placeholder="Enter age" min="13" max="120">
+            </div>
+
+            <div class="form-group">
+            <!--radio items-->
+                <p id="RorC">Do you like Ranged or close combat?</p>
+                <label for="radio1">Ranged</label>
+                <input type="radio" value=" " id="radio1" name="r&c"/>
+
+                <label for="radio2">Close up</label>
+                <input type="radio" value=" " id="radio2" name="r&c"/>
+            </div>
+
+            <div class="form-group">
+                <!--Checkboxes-->
+                <p>Which is your favorite class(s)</p>
+                <label for="checkboxes"><input type="checkbox" name = "Bard" value="bard">Bard</label>
+                <label for="checkboxes"><input type="checkbox" name = "barbarain" value="barbarain">barbarain</label>
+                <label for="checkboxes"><input type="checkbox" name = "Wizard" value="Wizard">Wizard</label>
+                <label for="checkboxes"><input type="checkbox" name = "Rouge" value="Rouge">Rouge</label>
+                <label for="checkboxes"><input type="checkbox" name = "BloodHunter" value="BloodHunter">Blood Hunter</label>
+                <label for="checkboxes"><input type="checkbox" name = "Paladin" value="Paladin">Paladin</label>
+                <label for="checkboxes"><input type="checkbox" name = "Sourcer" value="Sourcer">Sourcer</label>
+                <label for="checkboxes"><input type="checkbox" name = "Druid" value="Druid">Druid</label>
+                <label for="checkboxes"><input type="checkbox" name = "Fighter" value="Fighter">Fighter</label>
+            <div class="form-group">
+                <p>Any Suggestions (optional)</p>
+                <label for="texta"> 
+                    <textarea name="texta" id="textarea" placeholder="Type here"></textarea>
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="submit"></label>
+                <input type="submit" id="submit" name="submit" placeholder="Submit"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
