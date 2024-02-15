@@ -2,7 +2,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("https://i.pinimg.com/736x/05/c1/5a/05c15aca14964af944aac1c638e1d7d2.jpg");
     background-size: auto;
-    filter: blur(3px);
 }
 
 #title, #description {
